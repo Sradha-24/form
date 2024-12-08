@@ -1,0 +1,157 @@
+<html>
+    <head><title>Form</title></head>
+    <body>
+        <h2 align="center">STUDENT REGISTRATION FORM</h2>
+        <center>
+        <form>
+            <table  border="1"style="border-collapse:seperate;border-spacing:1;">
+                <tr>
+                    <th style="padding:8px;text-align:left;"><label for="fname">FIRST NAME</label></th>
+                    <td style="padding:8px;text-align:left;"><input type="text" id="fname" name="fname" maxlength="30">(max 30 characters)</td>
+                </tr>
+
+                <tr>
+                    <th style="padding:8px;text-align:left;"><label for="lname">LAST NAME</label></th>
+                    <td style="padding:8px;text-align:left;"><input type="text" id="lname" name="lname" maxlength="30">(max 30 characters)</td>
+                </tr>
+
+                <tr>
+                    <th style="padding:8px;text-align:left;"><label for="dob">DOB</label></th>
+                    <td style="padding:8px;text-align:left;"><input type="date" ></td>
+                </tr>
+
+                <tr>
+                    <th style="padding:8px;text-align:left;"><label for="email">EMAIL ID</label></th>
+                    <td style="padding:8px;text-align:left;"><input type="email" id="email" name="email" ></td>
+                </tr>
+
+                <tr>
+                    <th style="padding:8px;text-align:left;"><label for="num">MOBILE NUMBER</label></th>
+                    <td style="padding:8px;text-align:left;"><input type="tel" id="num" name="num" maxlength="10">(10 digit number)</td>
+                </tr>
+
+                <tr>
+                    <th style="padding:8px;text-align:left;"><label for="gender">GENDER</label></th>
+                    <td style="padding:8px;text-align:left;"><input type="radio" id="gender" name="gender">male
+                        <input type="radio" id="gender" name="gender">female
+                    </td>
+                </tr>
+ 
+                <tr>
+                    <th style="padding:8px;text-align:left;"><label for="address">ADDRESS</label></th>
+                    <td style="padding:8px;text-align:left;"><textarea  rows="4" cols="50"id="address" name="address" ></textarea></td>
+                </tr>
+                
+                <tr>
+                    <th style="padding:8px;text-align:left;"><label for="city">CITY</label></th>
+                    <td style="padding:8px;text-align:left;"><input type="text" id="city" name="city" maxlength="30">(max 30 characters)</td>
+                </tr>
+
+                <tr>
+                    <th style="padding:8px;text-align:left;"><label for="pin">PIN</label></th>
+                    <td style="padding:8px;text-align:left;"><input type="number" id="pin" name="pin" maxlength="6">(max 6 characters)</td>
+                </tr>
+
+                <tr>
+                    <th style="padding:8px;text-align:left;"><label for="state">STATE</label></th>
+                    <td style="padding:8px;text-align:left;"><input type="text" id="state" name="state" maxlength="30">(max 30 characters)</td>
+                </tr>
+
+                <tr>
+                    <th style="padding:8px;text-align:left;"><label for="city">COUNRTY</label></th>
+                    <td style="padding:8px;text-align:left;"><select  id="country" name="country">
+                        <option value="india">India</option>
+                        <option value="usa">USA</option>
+                        <option value="italy">Italy</option>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="padding:8px;text-align:left;"><label for="hob">HOBBIES</label></th>
+                    <td style="padding:8px;text-align:left;">Drawing<input type="checkbox" id="hob" name="hob" value="Drawing" >
+                        Singing<input type="checkbox" id="hob" name="hob" value="Singing" >
+                        Dancing<input type="checkbox" id="hob" name="hob" value="Dancing" >
+                        Sketching<input type="checkbox" id="hob" name="hob" value="Sketching" ><br>
+                     Others<input type="text" name="hob">
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="padding:8px;text-align:left;"><label for="qualification">QUALIFICATION</label></th>
+                    <td style="padding:8px;text-align:left;">
+                      <table>
+                        <tr>
+                            <th>Sr No.</th>
+                            <th>Examination</th>
+                            <th>Board</th>
+                            <th>Percentage</th>
+                            <th>Year of Passing</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>ClassX</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>ClassXII</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Graduation</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Masters</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                      </table>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="padding:8px;text-align:left;">COURSES APPLIED FOR</th>
+                    <td style="padding:8px;text-align:left;">
+                       MCA<input type="radio" name="Courses" value="MCA">
+                       MTech<input type="radio" name="Courses" value="MTech">
+                       MSc<input type="radio" name="Courses" value="MSc">
+                       PhD<input type="radio" name="Courses" value="PhD">
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="padding:8px;text-align:left;"><label for="pass">ENTER THE PASSWORD</label></th>
+                    <td style="padding:8px;text-align:left;"><input type="password" id="pass" name="password" maxlength="30">(Max 30 characters)</td>
+                </tr>
+
+                <tr>
+                    <th style="padding:8px;text-align:left;"><label for="photo">UPLOAD YOUR PHOTO</label></th>
+                    <td style="padding:8px;text-align:left;"><input type="file" id="photo" name="photo" ></td>
+                </tr>
+
+                <tr>
+                    <th style="padding:8px;text-align:left;"><label for="tc">DATE OF TC</label></th>
+                    <td style="padding:8px;text-align:left;"><input type="date" id="tc" name="tc" ></td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="center" style="padding:8px;">
+                    <input type="submit">
+                    <input type="reset">
+                  </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+    </body>
+</html>
